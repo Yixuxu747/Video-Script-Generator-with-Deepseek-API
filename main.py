@@ -1,6 +1,5 @@
-import streamlit as st
 from utils import generate_script
-
+import streamlit as st
 st.title("🎬 视频脚本生成器")
 
 with st.sidebar:
