@@ -1,8 +1,30 @@
+# 前端交互核心（必需）
 streamlit==1.51.0
+
+# LangChain 生态核心（脚本生成依赖）
 langchain==1.0.8
 langchain-core==1.0.7
 langchain-community==0.4.1
 langchain-openai==1.0.3
+
+# API 调用与网络依赖（必需）
 openai==2.7.2
 httpx==0.28.1
+httpcore==1.0.9
+anyio==4.11.0
+sniffio==1.3.1
+
+# 维基百科搜索依赖（必需）
+wikipedia-api==0.6.0
+
+# 数据解析与兼容性依赖（必需）
+pydantic==2.12.4
+pydantic-core==2.41.5
 typing-extensions==4.15.0
+packaging==23.2
+attrs==25.4.0
+
+# 文本处理依赖（langchain 间接依赖，避免缺失）
+idna==3.10
+charset-normalizer==3.4.3
+certifi==2025.8.3
